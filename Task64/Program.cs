@@ -12,7 +12,7 @@ int DataEntry(string str)
 
 string NumbersRec(int M, int N)
 {
-    if (M <= N) return $" {N} " + NumbersRec(M,N-1);
+    if (M <= N) return $" {N} " + NumbersRec(M, N - 1);
     else return string.Empty;
 }
 int M = DataEntry(" Insert M ");
