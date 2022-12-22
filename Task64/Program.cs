@@ -6,8 +6,8 @@
 int DataEntry(string str)
 {
     Console.WriteLine(str);
-    int N = int.Parse(Console.ReadLine());
-    return N;
+    int number = int.Parse(Console.ReadLine());
+    return number;
 }
 
 string NumbersRec(int M, int N)
